@@ -17,7 +17,8 @@ public class Solution {
     //     return false;
     //   }
       ListNode crr=head; 
-      while(crr!=null&&crr.next!=null){
+    //   while(crr!=null&&crr.next!=null){//if crr=null...how curr.nxt can exist
+        while(crr!=null){
         if(visited.contains(crr)){
             return true;
             
